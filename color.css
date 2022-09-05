@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    width: 200px;
+    padding: 1rem;
+    border: none;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.container button:hover {
+    color: black;
+    background-color: grey;
+    transition: all .8s;
+}
